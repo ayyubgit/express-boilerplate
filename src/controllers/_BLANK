@@ -1,0 +1,11 @@
+class Name {
+    constructor(req,res){
+        this.req = req
+        this.res = res
+        this.next = next
+    }
+
+}
+
+module.exports = Name
+  
