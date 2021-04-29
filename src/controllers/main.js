@@ -14,6 +14,25 @@ class Main {
         this.res.json({a:5,b:7})
     }
 
+    index() {
+        this.res.end('index');
+    }
+    show() {
+        this.res.end('show');
+        
+    }
+    store() {
+        this.res.end('store');
+        
+    }
+    update() {
+        this.res.end('update');
+        
+    }
+    destroy() {
+        this.res.end('destroy');
+        
+    }
 }
 
 module.exports = Main

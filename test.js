@@ -1,3 +1,18 @@
-const path = require('path');
+console.log('start');
 
-console.log(path.join(__dirname, 'a', 'b.txt'));
+() => {
+    console.log('hello');
+};
+
+console.log('1');
+console.log('2');
+console.log('3');
+console.log('4');
+console.log('4');
+console.log('4');
+console.log('4');
+console.log('4');
+console.log('4');
+console.log('4');
+console.log('4');
+console.log('4');

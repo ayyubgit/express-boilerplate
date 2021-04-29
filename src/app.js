@@ -23,7 +23,7 @@ const appRoutes = []
 const router = require('./lib/router.class')
 
 function route(prefix){
-    return prefix ? new router(appRoutes).prefix(prefix) : new Router(appRoutes)
+    return prefix ? new router(appRoutes).prefix(prefix) : new router(appRoutes)
 }
 
 require('./routes')(route)
