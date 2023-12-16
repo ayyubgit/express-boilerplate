@@ -44,4 +44,8 @@ require('./routeHandler')(appRoutes,app)
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
+
+const {MongoClient} = require('mongodb');
+const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
+
 module.exports = app;

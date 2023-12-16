@@ -1,5 +1,7 @@
 module.exports = function(route){
 
+    route()
+        .get('/', 'main@test')
     route('api')
         .get('a/:id','main@home')
         .post('a','main@home')

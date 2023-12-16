@@ -26,12 +26,16 @@ class Main {
         
     }
     update() {
-        this.res.end('update');
+        this.res.json({'key' : 'fafa'});
         
     }
     destroy() {
         this.res.end('destroy');
         
+    }
+
+    test() {
+        this.res.json({'key' : 'fafa'});
     }
 }
 
